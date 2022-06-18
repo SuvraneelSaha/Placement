@@ -6,7 +6,7 @@ public class O11_ScopingInForLoop {
         {
             System.out.println(i);
         }
-        System.out.println(i);
+       // System.out.println(i);
         // error we cannot access it outside the for loop
     }
 }
