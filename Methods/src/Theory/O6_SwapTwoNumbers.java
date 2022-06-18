@@ -31,5 +31,7 @@ public class O6_SwapTwoNumbers {
         a=b;
         b=temp;
 
+        // this change will be valid for this function scope only
+
     }
 }

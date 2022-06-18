@@ -8,6 +8,7 @@ public class O7_SwapTwoNumbersExplanation {
     }
     static void changename(String name)
     {
-        name = "lionel Messi";
+        name = "lionel Messi"; // here we are creating a new object
     }
 }
+// the change name function is not swapp
