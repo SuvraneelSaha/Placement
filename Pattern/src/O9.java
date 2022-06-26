@@ -10,7 +10,7 @@ public class O9 {
             // Find out the number of columns in each row
             for (int col = 1; col <=2*n-1 ; col++)
             {
-                
+
                 System.out.println(col + " ");
             }
             System.out.println();
