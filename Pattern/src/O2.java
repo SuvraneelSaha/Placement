@@ -6,7 +6,7 @@ public class O2 {
     static void Pattern6(int n)
     {
         // STEP 1
-        // according to he template - we use < n
+        // according to the template - we use < n
         // we need to find the actual number of rows
         for (int row = 0;row<2*n;row++)
         {
