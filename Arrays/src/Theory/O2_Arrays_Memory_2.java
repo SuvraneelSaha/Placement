@@ -1,5 +1,5 @@
 package Theory;
-
+// Implication of Array --> shallow copy
 public class O2_Arrays_Memory_2 {
     public static void main(String[] args) {
         int[] one = new int[3];
