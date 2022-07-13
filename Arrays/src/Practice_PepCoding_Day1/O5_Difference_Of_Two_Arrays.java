@@ -1,9 +1,9 @@
-package Practice_PepCoding;
+package Practice_PepCoding_Day1;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class O4_Sum_Of_Two_Arrays {
+public class O5_Difference_Of_Two_Arrays {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Please enter the size of the Array");
@@ -29,60 +29,47 @@ public class O4_Sum_Of_Two_Arrays {
         }
         System.out.println("Og Array = "+Arrays.toString(arr2));
 
+      //  int[] diff = new int[m>n?m:n]; // this is true if the size if different what if the size of both the
+        // arrays is not different
 
-//        if(m>n)
-//        {
-//            int[] arrFinal = new int[m];
-//        }
-//        else
-//        {
-//            int[] arrFinal = new int[n];
-//        }
+           int[] diff = new int[m>n?m:n];
 
-        int[] sum = new int[n > m ? n : m]; // same as the above one
-        // here just we are using ternary operators
 
-        int i = arr1.length-1;
-        int j = arr2.length-1;
-        int k = sum.length-1;
+        int j = arr1.length-1;
+        int i = arr2.length-1;
+        int k = diff.length-1;
 
-        int c = 0 ;
+      //  int carry = 0;
         while (k>=0)
         {
-            int d = c ;
-
-            if(i>=0)
+            int d=0;
+            if(arr2[i] < arr1[j])
             {
-                d=d+arr1[i];
-            }
+                arr2[i] = 10 + arr2[i];
+                d = arr2[i] - arr1[j];
+                diff[k] = d;
+                if(j>=0)
+                {
+                    arr1[j-1] = 1+arr1[j-1];
+                }
+                else
+                {
+                    System.out.printf("%d",arr2[0]-1);
+                }
 
-            if(j>=0)
+            }
+            else if(arr2[i] >= arr1[j])
             {
-                d=d+arr2[j];
+                d=arr2[i] - arr1[j];
+                diff[k] = d;
             }
-
-            // finding the last digit
-            // finding the carry
-            c=d/10;
-            d= d%10;
-
-            sum[k] = d ;
-
             i--;
             j--;
             k--;
-
-
         }
-
-        if(c!=0)
+        for (int val : diff)
         {
-            System.out.print(c);
-        }
-
-        for (int l = 0; l < sum.length; l++)
-        {
-            System.out.print(sum[l]);
+            System.out.print(val);
         }
 
     }

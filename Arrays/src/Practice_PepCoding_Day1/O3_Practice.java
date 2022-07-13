@@ -1,4 +1,4 @@
-package Practice_PepCoding;
+package Practice_PepCoding_Day1;
 import java.util.*;
 
 public class O3_Practice {
