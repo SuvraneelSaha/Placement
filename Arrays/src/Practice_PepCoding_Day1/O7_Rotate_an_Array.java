@@ -48,15 +48,15 @@ public class O7_Rotate_an_Array {
         Reverse(arr,0,arr.length-1);
 
     }
-    public static void Reverse(int[] arr , int a,int b)
+    public static void Reverse(int[] arr , int i,int j)
     {
-        int start = a;
-        int end = b;
+        int start = i;
+        int end = j;
         while (start<end)
         {
-            int temp = arr[a];
-            arr[a] = arr[b];
-            arr[b] = temp;
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
             start++;
             end--;
         }
