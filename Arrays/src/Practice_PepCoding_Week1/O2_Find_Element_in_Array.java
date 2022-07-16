@@ -1,9 +1,9 @@
-package Practice_PepCoding_Day1;
-
+package Practice_PepCoding_Week1;
+// link - https://www.pepcoding.com/resources/online-java-foundation/function-and-arrays/find-element-in-array-official/ojquestion
 import java.util.Arrays;
 import java.util.Scanner;
-// link - https://www.pepcoding.com/resources/online-java-foundation/function-and-arrays/find-element-in-array-official/ojquestion
-public class O2_Solution {
+
+public class O2_Find_Element_in_Array {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Please enter the size of the Array :");
@@ -20,19 +20,20 @@ public class O2_Solution {
             arr[i] = in.nextInt();
         }
         System.out.println("OG Array ="+ Arrays.toString(arr));
-        System.out.println("Enter Target element ");
-        int tar = in.nextInt();
-        int index = -1 ; // by default we are setting the value of the index as -1
-        // so if by chance the element is not present inside the array
-        // then the value of the index will be -1 by default as
-        // the condition in the if statement is not met
+
+        System.out.println("Please enter the target Element :");
+        int target = in.nextInt();
         for (int i = 0; i <arr.length ; i++) {
-            if (arr[i] == tar)
+            if(target==arr[i])
             {
-                index = i;
-                break;
+                System.out.printf("the index of the target position is %d",i);
+
+
             }
+
         }
-        System.out.printf("Index of the Target element %d is %d",tar,index);
+        System.out.println("Element Not Found Index = "+-1); // the problem is this is also coming in the output
+        // so we need to eliminate this
+        // see solution in the next code
     }
 }

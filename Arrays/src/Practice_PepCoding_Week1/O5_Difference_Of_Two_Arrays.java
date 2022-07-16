@@ -1,4 +1,4 @@
-package Practice_PepCoding_Day1;
+package Practice_PepCoding_Week1;
 // link - https://www.pepcoding.com/resources/online-java-foundation/function-and-arrays/difference-of-two-arrays-official/ojquestion
 
 import java.util.Arrays;
