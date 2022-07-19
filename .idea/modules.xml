@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays_BinaryWorld/Arrays_BinaryWorld.iml" filepath="$PROJECT_DIR$/Arrays_BinaryWorld/Arrays_BinaryWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Binary Search/Binary Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codeforces_Div2_A/Codeforces_Div2_A.iml" filepath="$PROJECT_DIR$/Codeforces_Div2_A/Codeforces_Div2_A.iml" />
       <module fileurl="file://$PROJECT_DIR$/Contests Leetcode/Contests Leetcode.iml" filepath="$PROJECT_DIR$/Contests Leetcode/Contests Leetcode.iml" />
