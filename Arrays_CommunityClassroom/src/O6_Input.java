@@ -1,4 +1,4 @@
-public class O5_String_Array {
+public class O6_Input {
     public static void main(String[] args) {
         
     }
