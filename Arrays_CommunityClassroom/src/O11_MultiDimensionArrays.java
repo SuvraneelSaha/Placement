@@ -25,7 +25,7 @@ public class O11_MultiDimensionArrays {
                 {3,4,5,6}, // 1st index
                 {7,8,9,10,11} // 2nd index  arr2[2] = { 7,8,9,10}
         };
-        for (int[] num : arr1)
+        for (int[] num : arr2)
         {
             System.out.println(Arrays.toString(num));
         }

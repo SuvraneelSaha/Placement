@@ -9,7 +9,7 @@ public class O2_ArraySyntax {
         arr = new int[5]; // this is the initialization
         // actual memory creation happens here
         // object is being created in the heap memory
-        // is you dont mention the size it will give an error ;
+        // if you dont mention the size it will give an error ;
 
     }
 

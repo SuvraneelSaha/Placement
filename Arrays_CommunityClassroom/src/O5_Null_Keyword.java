@@ -16,6 +16,7 @@ public class O5_Null_Keyword {
 // we can cast it to any particular reference type or variable
 // but we cant create a null type
 // ex - null a = null ; -- error
+// which means it is not a datatype
 
 // we can use it with string ie with  non primitive data types
 // but not with primitive data types - ie int , boolean

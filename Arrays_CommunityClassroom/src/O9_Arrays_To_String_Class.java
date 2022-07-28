@@ -15,7 +15,7 @@ public class O9_Arrays_To_String_Class {
         System.out.println(Arrays.toString(str));
 
 
-        // there is an arrays class
+        // there is an Arrays class
         // Arrays is the main class name
         // toString is the method
         // Arrays class has a .toString method
