@@ -3,5 +3,5 @@ public class O13 {
     // internal working of input in 2D Arrays
 
 
-    // follow notes 
+    // follow notes
 }
