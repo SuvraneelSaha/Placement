@@ -18,7 +18,7 @@ public class O19_Arraylists_Input_Output {
             System.out.println(list.get(i));
             // we need to pass the index in the .get function otherwise it wont work
 
-            // list[index] syntax will not work here 
+            // list[index] syntax will not work here
         }
 
     }
