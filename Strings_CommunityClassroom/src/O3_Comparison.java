@@ -12,7 +12,9 @@ public class O3_Comparison {
         // == operator ie comparison operator
         System.out.println(a==b);
         // why this warning is coming
-        // follow notes then 
+        // follow notes then
+        // cause in case of strings it acts differently
+        
 
     }
 }
