@@ -4,6 +4,8 @@ public class O3_Comparison {
         // its a convention
         String a = "Kunal";
         String b = "Kunal";
+        // how can we check that two or more ref variables are pointing to the same object or different objects
+
         // we now know that now that both the objects are in string pool
         // as the value is same
 
