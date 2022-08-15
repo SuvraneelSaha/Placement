@@ -1,5 +1,5 @@
 public class O6 {
-    // saddle point 
+    // saddle point
     public static void main(String[] args) {
 
     }
