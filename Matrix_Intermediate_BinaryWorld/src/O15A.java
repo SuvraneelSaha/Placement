@@ -21,7 +21,7 @@ public class O15A {
         for (int[] row : arr) {
             System.out.println(Arrays.toString(row));
         }
-        for (int count = 0; count < 3; count++) 
+        for (int count = 0; count < 3; count++)
         {
 
 
