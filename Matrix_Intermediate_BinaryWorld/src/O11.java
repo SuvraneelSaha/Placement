@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
+// Shift up a matrix by one place
 public class O11 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

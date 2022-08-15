@@ -1,12 +1,16 @@
 import java.util.Arrays;
 import java.util.Scanner;
-// lower right part of the matrix
-public class O10 {
+
+public class O12 {
+    // shift down a matrix by one place
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Please enter the size of the row :");
         int n = in.nextInt();
-        int[][] arr = new int[n][n];
+        System.out.println("Please enter the size of the column :");
+        int m = in.nextInt();
+        int[][] arr = new int[n][m];
         System.out.println("Please enter the elements in the Array:");
         for (int row = 0; row < n; row++)
         {
@@ -22,20 +26,24 @@ public class O10 {
             System.out.println(Arrays.toString(row));
         }
 
-        for (int row = 0; row < n; row++)
+        int[] temp = arr[n-1];
+
+        int k =1;
+        for (int i = n-2; i >=0 ; i--)
         {
-            for (int col = 0; col < arr[row].length ; col++)
-            {
-                if(row+col>=n-1)
-                {
-                    System.out.print(arr[row][col]+"\t");
-                }
-                else
-                {
-                    System.out.print("\t");
-                }
-            }
-            System.out.println();
+            arr[n-k] = arr[i] ;
+            k++;
         }
+
+        arr[0] = temp;
+
+        // printing the matrix
+        System.out.println("New Matrix");
+        for (int[] row : arr)
+        {
+            System.out.println(Arrays.toString(row));
+        }
+
+
     }
 }
