@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
+// transpose of a square matrix
 
 public class O3 {
     public static void main(String[] args) {
@@ -24,6 +25,24 @@ public class O3 {
 
         // creating a new array of the same size
         int[][] brr =new int[n][n];
-        `
+
+        // actual operation
+        for (int row = 0; row < n; row++)
+        {
+            for (int col = 0; col < arr[row].length ; col++)
+            {
+                brr[col][row] = arr[row][col];
+
+
+            }
+        }
+
+        System.out.println("New Matrix :");
+        for (int[] row : brr)
+        {
+            System.out.println(Arrays.toString(row));
+        }
+
+
     }
 }
