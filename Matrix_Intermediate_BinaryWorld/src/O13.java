@@ -25,6 +25,29 @@ public class O13 {
         {
             System.out.println(Arrays.toString(row));
         }
-        
+
+        for (int z = 1; z <= 2 ; z++) // this is the climax of the question
+            // Focus on the shifting of the matrix for only once
+            // then add a loop above the whole process -- for the no. of times it will run
+        {
+        int[] temp = arr[0];
+
+
+
+
+            for (int i = 0; i < n-1 ; i++)
+            {
+                arr[i] = arr[i+1];
+            }
+
+            arr[n-1] = temp;
+        }
+
+        System.out.println("New Matrix:");
+        for (int[] row : arr)
+        {
+            System.out.println(Arrays.toString(row));
+        }
+
     }
 }
