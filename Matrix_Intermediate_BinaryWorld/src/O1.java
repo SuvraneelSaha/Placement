@@ -6,10 +6,7 @@ public class O1 {
         Scanner in = new Scanner(System.in);
         System.out.println("Please enter the size of the row :");
         int n = in.nextInt();
-        System.out.println("Please enter the size of the column :");
-        int m = in.nextInt();
-
-        int[][] arr = new int[n][m];
+        int[][] arr = new int[n][n];
         System.out.println("Please enter the elements in the Array:");
         for (int row = 0; row < n; row++)
         {
@@ -27,13 +24,13 @@ public class O1 {
         }
 
         // creating a new array of the same size
-        int[][] brr =new int[n][m];
+        int[][] brr =new int[n][n];
 
 
 
         for (int row = 0; row < arr.length; row++)
         {
-            for (int col = m-1,k=0; col >=0 ; col--)
+            for (int col = n-1,k=0; col >=0 ; col--)
             {
                 brr[k][row] = arr[row][col];
                 k++;
