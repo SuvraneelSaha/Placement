@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array_Intermediate_BinaryWorld/Array_Intermediate_BinaryWorld.iml" filepath="$PROJECT_DIR$/Array_Intermediate_BinaryWorld/Array_Intermediate_BinaryWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrays_BinaryWorld/Arrays_BinaryWorld.iml" filepath="$PROJECT_DIR$/Arrays_BinaryWorld/Arrays_BinaryWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrays_Code_For_Win/Arrays_Code_For_Win.iml" filepath="$PROJECT_DIR$/Arrays_Code_For_Win/Arrays_Code_For_Win.iml" />
