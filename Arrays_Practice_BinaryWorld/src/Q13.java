@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q13 {
-    //  Write a program to copythe elements of one array into another array.
+    //  Write a program to copy the elements of one array into another array.
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Please enter the size of the Array ");
