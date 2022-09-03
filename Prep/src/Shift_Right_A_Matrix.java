@@ -76,7 +76,7 @@ public class Shift_Right_A_Matrix {
 //            }
 
             // problem was in m
-            // the col will be from 0 to n-1 
+            // the col will be from 0 to n-1
 
             int z = m-1;
             for (int i = m-2; i >=0 ; i--)
