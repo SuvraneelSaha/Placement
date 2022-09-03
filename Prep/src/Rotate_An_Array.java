@@ -1,6 +1,6 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
+
 
 // rotate an array
 public class Rotate_An_Array {
